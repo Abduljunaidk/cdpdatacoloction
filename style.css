@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+.form-group{
+    padding-top: 15px;
+    font-family: 'Manjari', sans-serif;
+    font-size: 19px;
+}
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+  }
+  .jn {
+      text-decoration: none;
+      color: white;
+  }
